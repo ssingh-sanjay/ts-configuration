@@ -1,0 +1,136 @@
+# ==========================================
+# 1. Operating System Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.Trashes
+VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.lnk
+*.cab
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+*~
+.fuse_hidden*
+.trash/
+.directory
+.nfs*
+
+# ==========================================
+# 2. Common IDEs and Text Editors
+# ==========================================
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# IntelliJ / JetBrains (WebStorm, PyCharm, PhpStorm, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.metadata/
+bin/
+tmp/
+.tmp/
+.classpath
+.project
+.settings/
+
+# NetBeans
+**/nbproject/private/
+**/nbproject/project.properties
+**/nbproject/project.xml
+**/nbbuild/
+**/dist/
+**/nbdist/
+.nb-gradle/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Emacs
+.*.sw[a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+elc/
+auto-save-list/
+tramp
+.\#*
+
+# ==========================================
+# 3. Log Files, Caches, and Diagnostics
+# ==========================================
+*.log
+*.dump
+*.stackdump
+logs/
+log/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+.stylelintcache
+.sass-cache
+.cache/
+
+# ==========================================
+# 4. Global Language & Dependency Folders
+# ==========================================
+# Node.js
+node_modules/
+bower_components/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+
+# Java / Maven / Gradle
+.gradle/
+build/
+target/
+
+# ==========================================
+# 5. Environments, Secrets, and Credentials
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.cert
+*.secret
